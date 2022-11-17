@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
 
 # Upload the data
-dataset = pd.read_csv('DiamondsPrices01.csv',index_col=0)
+dataset = pd.read_csv('C:/pydata/DiamondsPrices01.csv',index_col=0)
 dataset.head(20)
 
 
