@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
 
 # Upload the data
-dataset = pd.read_csv('C:/pydata/DiamondsPrices01.csv',index_col=0)
+dataset = pd.read_csv('DiamondsPrices01.csv',index_col=0)
 dataset.head(20)
 
 
@@ -276,9 +276,7 @@ def predict(carat, cut, color, clarity, depth, table, x, y, z):
 
 
 #Basic title and image for the landing page, and a header with instructions.
-st.title('Diamond Price Predictor')
-st.image("""https://github.com/Josephmuroba/DiamondsPricing/blob/main/DiamondsPricing.py"""))
-st.header('Enter the characteristics of the diamond:')
+
 
 
 # In[ ]:
