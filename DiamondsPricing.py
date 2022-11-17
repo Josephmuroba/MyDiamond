@@ -41,7 +41,7 @@
      # i.Import Modules(Libraries) to use in this excercise
     
 import pandas as pd
-from xgboost import XGBRegressor # A supervised ML library that is used for classification as well as regeneration
+from xgboost import XGBRegressor 
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
